@@ -1,0 +1,62 @@
+NAO4Scratch - Scratch 2.0 Extension to command the NAO robot using Scratch
+--------------------------------------------------------------------------
+
+History
+-------
+All started here: http://cfp.devoxx.fr/devoxxfr2014/talk/CLU-422/Hackaton%20NAO4Kids
+
+
+Team
+----
+Audrey Neveu,       https://github.com/aneveu,            https://twitter.com/Audrey_Neveu
+Xavier Bourguignon, https://github.com/xavierbourguignon, https://twitter.com/xbourguignon 
+Tasha Carl,         https://github.com/imifos,            https://twitter.com/Imifos
+
+
+Status
+------
+Alpha version. All NAO commands are actually "say" replacements (for security and testing). 
+Currently a Netbeans project, but a pom will be added.
+
+We are waiting for some Scratch bugs/ideas to be fixed: (blocking extension commands).
+http://scratch.mit.edu/discuss/topic/36630/
+http://scratch.mit.edu/discuss/topic/35231/
+http://scratch.mit.edu/discuss/topic/37023/
+
+Architecture
+------------
+1) Multiple NAO extension definition files (requiring Scratch 2 Offline).
+2) A Intermediary server written in Java 6/7 & Swing (java -jar "NAO4Scratch.jar" )
+3) A NAO behavior written in Choregraphe/Python
+
+
+License
+-------
+NAO4Scratch is free software: you can redistribute it and/or modify 
+it under the terms of the GNU Lesser General Public License as published by 
+the Free Software Foundation, either version 3 of the License, or 
+(at your option) any later version. 
+ 
+NAO4Scratch is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+GNU Lesser General Public License for more details. 
+ 
+A copy of the GNU Lesser General Public License can be found here:
+http://www.gnu.org/licenses/
+
+
+Note
+---- 
+If you use this extension and you have fun (or find bugs) or have ideas for
+improvement, please drop us a message.
+
+
+Detailed Instructions
+---------------------
+Coming as soon as the project is more mature.
+
+
+Scratch Extension Protocol
+--------------------------
+http://wiki.scratch.mit.edu/wiki/Scratch_Extension_Protocol_%282.0%29

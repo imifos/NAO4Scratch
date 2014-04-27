@@ -1,0 +1,8 @@
+{
+	"extensionName": "NAO Scratch - Animations",
+	"extensionPort": 5999,
+	"blockSpecs":[
+		["", "Stand up", "standup"],
+                ["", "Sit down", "sitdown"],
+	]
+}

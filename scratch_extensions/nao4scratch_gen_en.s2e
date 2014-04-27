@@ -1,0 +1,11 @@
+{
+	"extensionName": "NAO Scratch - General",
+	"extensionPort": 5999,
+	"blockSpecs":[
+            ["", "Say %s", "say", "hello!"],
+            ["", "Motor %m.motorStates", "motor",]
+	],
+        "menus": {
+            "motorStates": ["on","off"],
+        },
+}
