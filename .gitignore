@@ -1,0 +1,15 @@
+# vim
+.*.sw[a-p]
+
+# various potential build files
+nbproject/private/
+build/
+dist/
+inst/
+packages/
+
+# Mac filesystem dust
+/.DS_Store
+
+
+/.svn
