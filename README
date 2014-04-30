@@ -26,8 +26,11 @@ http://scratch.mit.edu/discuss/topic/37023/
 Architecture
 ------------
 1) Multiple NAO extension definition files (requiring Scratch 2 Offline).
+   (Hold SHIFT key down and go to the File menu, there choose Import Experimental Extension,
+   the seelct all e2s file to open them. The new block will apeear unde "More Blocks")
 2) A Intermediary server written in Java 6/7 & Swing (java -jar "NAO4Scratch.jar" )
-3) A NAO behavior written in Choregraphe/Python
+3) A NAO behavior written in Choregraphe/Python (must be loaded in Choregraphe and started 
+   on the robot).
 
 
 License
