@@ -6,13 +6,6 @@ History
 All started here: http://cfp.devoxx.fr/devoxxfr2014/talk/CLU-422/Hackaton%20NAO4Kids
 
 
-Team
-----
-Audrey Neveu,       https://github.com/aneveu,            https://twitter.com/Audrey_Neveu
-Xavier Bourguignon, https://github.com/xavierbourguignon, https://twitter.com/xbourguignon 
-Tasha Carl,         https://github.com/imifos,            https://twitter.com/Imifos
-
-
 Status
 ------
 Alpha version. All NAO commands are actually "say" replacements (for security and testing). 
@@ -27,7 +20,7 @@ Architecture
 ------------
 1) Multiple NAO extension definition files (requiring Scratch 2 Offline).
    (Hold SHIFT key down and go to the File menu, there choose Import Experimental Extension,
-   the seelct all e2s file to open them. The new block will apeear unde "More Blocks")
+   the select all e2s file to open them. The new block will apeear unde "More Blocks")
 2) A Intermediary server written in Java 6/7 & Swing (java -jar "NAO4Scratch.jar" )
 3) A NAO behavior written in Choregraphe/Python (must be loaded in Choregraphe and started 
    on the robot).
